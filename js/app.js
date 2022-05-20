@@ -1,4 +1,4 @@
-const row = document.querySelector('[class="row gap-3"]');
+const row = document.querySelector('[class="row gap-3 row-cols-6 row-cols-xxl-6"]');
 
 for (i = 1; i <= 100; i++) {
 

@@ -1,3 +1,7 @@
+.fizzbuzz-web-app {
+    max-height: 100vh;
+}
+
 main {
     background-color: #123B4C;
 }
@@ -8,21 +12,36 @@ h1 {
 }
 
 .frizz-buzz {
-    padding: 2rem;
     background-color: #ED456E;
+    font-size: 0.8rem;
+
 }
 
 .frizz {
-    padding: 2rem;
-    background-color: #61D7A2;
+    background-color: #61D7A2;  
+    font-size: 0.8rem;
+
 }
 
 .buzz {
-    padding: 2rem;
     background-color: #FAD166;
+    font-size: 0.8rem; 
+
 }
 
 .number {
-    padding: 2rem;
     background-color: #348AB2;
+
+}
+
+.frizz-buzz,
+.frizz,
+.buzz,
+.number {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
 }
